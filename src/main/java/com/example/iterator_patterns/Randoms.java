@@ -7,7 +7,8 @@ import java.util.stream.IntStream;
 public class Randoms implements Iterable<Integer> {
     protected Random random;
     protected int min = 0;
-    protected int max =0;
+    protected int max = 0;
+
     public Randoms(int min, int max) {
         this.min = min;
         this.max = max + 1;
@@ -30,7 +31,6 @@ public class Randoms implements Iterable<Integer> {
             }
         };
     }
-
 
 
 }
