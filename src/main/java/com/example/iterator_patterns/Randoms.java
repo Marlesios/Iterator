@@ -2,12 +2,12 @@ package com.example.iterator_patterns;
 
 import java.util.Iterator;
 import java.util.Random;
-import java.util.stream.IntStream;
+
 
 public class Randoms implements Iterable<Integer> {
     protected Random random;
-    protected int min = 0;
-    protected int max = 0;
+    protected int min;
+    protected int max;
 
     public Randoms(int min, int max) {
         this.min = min;
